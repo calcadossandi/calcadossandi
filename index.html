@@ -22,15 +22,16 @@
       font-weight: bold;
     }
     .produtos {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
-      justify-content: center;
+      justify-items: center;
     }
     .produto {
       border: 1px solid #ccc;
       padding: 15px;
-      width: 280px;
+      width: 100%;
+      max-width: 280px;
       text-align: center;
       border-radius: 8px;
       background: #f9f9f9;
@@ -74,40 +75,34 @@
     Botinas em Couro Legítimo direto da Fábrica
   </div>
 
- <!-- ...código acima permanece igual -->
-
-<section id="produtos">
-  <h2>Nossos Modelos</h2>
-  <div class="produtos">
-    <div class="produto">
-      <img src="modelo-575-brown.png" alt="Botina 575 Brown" />
-      <h3>Botina 575 Brown</h3>
-      <p>Disponível do 37 ao 44</p>
-      <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
+  <section id="produtos">
+    <h2>Nossos Modelos</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="modelo-575-brown.png" alt="Botina 575 Brown" />
+        <h3>Botina 575 Brown</h3>
+        <p>Disponível do 37 ao 44</p>
+        <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
+      </div>
+      <div class="produto">
+        <img src="modelo-575-preta.png" alt="Botina 575 Preta" />
+        <h3>Botina 575 Preta</h3>
+        <p>Couro legítimo, palmilha confortável</p>
+        <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
+      </div>
+      <div class="produto">
+        <img src="modelo-576-preta.png" alt="Botina 576 Preta" />
+        <h3>Botina 576 Preta</h3>
+        <p>Sola resistente, ideal para uso social e profissional</p>
+        <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
+      </div>
+      <div class="produto">
+        <img src="modelo-576-brown.png" alt="Botina 576 Brown" />
+        <h3>Botina 576 Brown</h3>
+        <p>Sola resistente, ideal para uso social e profissional</p>
+        <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
+      </div>
     </div>
-    <div class="produto">
-      <img src="modelo-575-preta.png" alt="Botina 575 Preta" />
-      <h3>Botina 575 Preta</h3>
-      <p>Couro legítimo, palmilha confortável</p>
-      <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
-    </div>
-    <div class="produto">
-      <img src="modelo-576-preta.png" alt="Botina 576 Preta" />
-      <h3>Botina 576 Preta</h3>
-      <p>Sola resistente, ideal para uso social e profissional</p>
-      <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
-    </div>
-    <div class="produto">
-      <img src="modelo-576-brown.png" alt="Botina 576 Brown" />
-      <h3>Botina 576 Brown</h3>
-      <p>Sola resistente, ideal para uso social e profissional</p>
-      <a class="btn" href="https://wa.me/5516982451286?text=Olá,+quero+saber+mais+sobre+as+botinas+Sandi">Solicitar Orçamento</a>
-    </div>
-  </div>
-</section>
-
-
-
   </section>
 
   <section id="sobre">
